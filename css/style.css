@@ -5,6 +5,7 @@
 @import './grid.css';
 @import './flex.css';
 @import './container.css';
+@import './position.css';
 
 * {
   margin: 0;

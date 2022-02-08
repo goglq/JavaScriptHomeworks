@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Lesson #5</title>
     <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -13,13 +14,11 @@
       <h1>JavaScript Lesson #5</h1>
     </header>
     <div class="h-rel-screen flex flex-col items-stretch p-10 container">
-      <h1 class="m-10">Logger</h1>
-      <div class="grid grid-rows-2 grid-gap-1 h-full">
-        <p id="log" class="h-full"></p>
-        <p id="code" class="h-full"></p>
+      <div class="flex justify-center"><h1 id="score">0</h1></div>
+      <div id="field" class="grid grid-cols-10 grid-rows-10 relative">
+        <div id="ball" class="absolute ball"></div>
       </div>
     </div>
-    <script src="../../js/logger.js"></script>
-    <script src="./hw-3.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
