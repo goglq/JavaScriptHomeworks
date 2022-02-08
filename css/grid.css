@@ -6,8 +6,16 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-cols-10 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .grid-rows-2 {
   grid-template-rows: 1fr 1fr;
+}
+
+.grid-rows-10 {
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-gap-1 {
