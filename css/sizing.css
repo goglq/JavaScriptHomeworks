@@ -1,11 +1,43 @@
 .h-screen {
-    height: 100vh;
+  height: 100vh;
 }
 
 .h-full {
-    height: 100%;
+  height: 100%;
 }
 
 .h-rel-screen {
-    height: calc(100vh - var(--header-height));
+  height: calc(100vh - var(--header-height));
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
