@@ -1,20 +1,27 @@
-.grass {
-  width: 120px;
-  height: 100px;
-  background-color: green;
-}
-
-.gole {
-  width: 120px;
-  height: 100px;
-  background-color: azure;
-}
-
-.ball {
-  width: 100px;
-  height: 100px;
-
+.coin {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 
-  background-color: black;
+  background-color: gold;
+
+  cursor: pointer;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+
+  background-color: chocolate;
+
+  cursor: pointer;
+}
+
+.revealed-cell {
+  width: 50px;
+  height: 50px;
+
+  background-color: gray;
+
+  cursor: default;
 }
