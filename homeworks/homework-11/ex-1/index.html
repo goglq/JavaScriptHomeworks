@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW 10</title>
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <style>
+      .controls {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 50px 50px;
+      }
+
+      #up {
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+
+      #down {
+        grid-column-start: 2;
+        grid-row-start: 2;
+      }
+
+      #left {
+        grid-column-start: 1;
+        grid-row-start: 2;
+      }
+
+      #right {
+        grid-column-start: 3;
+        grid-row-start: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="home-link" href="../../../index.html">JS</a>
+      <h1>JavaScript Homework #11</h1>
+    </header>
+    <div
+      class="container h-rel-screen flex flex-col justify-center items-center"
+    >
+      <canvas id="text-canvas" style="border: 1px solid black"></canvas>
+      <form id="color-text-form">
+        <div>
+          <label for="name-input">Имя</label>
+          <input id="name-input" type="text" />
+        </div>
+        <div>
+          <label for="color-input">HEX Цвет</label>
+          <input id="color-input" type="text" />
+        </div>
+        <div class="controls">
+          <button id="up">up</button>
+          <button id="left">left</button>
+          <button id="right">right</button>
+          <button id="down">down</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
